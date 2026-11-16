@@ -1,6 +1,11 @@
 # Chabot Zev Gemini
 
-> A simple AI-first support bot built with TypeSafe's Jev and Google's Gemini API.
+An AI-first customer support bot built with TypeSafe's Jev and Google's Gemini API.
+
+It leverages a knowledge base of common issues and their resolutions to automatically assist users and resolve requests whenever possible, while they wait for a human support operator to become available. 
+
+Rather than forcing users through a series of AI-only troubleshooting steps before granting access to human assistance, the bot provides immediate, AI-powered support in parallel with the human support queue.  
+This approach helps reduce waiting times by resolving straightforward issues automatically while ensuring users never have to exhaust automated options before getting human help.
 
 ## Local running
 
