@@ -4,7 +4,14 @@
 
 ## Local running
 
-Install the dependency and start the application:
+Create a `.env` file in the project directory with your
+[Gemini API key](https://aistudio.google.com/apikey):
+
+```text
+GEMINI_API_KEY=your_api_key_here
+```
+
+Install the dependencies and start the application:
 
 ```bash
 # Create a virtual environment (only once).
@@ -19,4 +26,3 @@ python -m pip install -r requirements.txt
 # Start the application.
 python main.py
 ```
-
